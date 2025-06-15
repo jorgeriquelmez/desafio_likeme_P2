@@ -45,30 +45,49 @@ El repositorio está dividido en dos partes principales, cada una con su propia 
 - **`frontend/`:** Corresponde a la interfaz de usuario (React/Vite).
 
 .
-├── backend/ # Contiene la lógica del servidor API
-│ ├── config/
-│ │ └── config.js # Configuración de conexión a la base de datos
-│ ├── controllers/
-│ │ └── postController.js # Lógica de los controladores (GET, POST, PUT, DELETE)
-│ ├── models/
-│ │ └── postModel.js # Lógica de interacción con la base de datos
-│ ├── routes/
-│ │ └── postRoutes.js # Definición de las rutas de la API
-│ ├── .env.example # Ejemplo de variables de entorno para el backend
-│ ├── package.json # Dependencias y scripts del backend
-│ └── server.js # Punto de entrada del servidor Express
-├── frontend/ # Contiene la aplicación cliente
-│ ├── public/
-│ ├── src/
-│ │ ├── components/ # Componentes reutilizables de React
-│ │ ├── App.js # Componente principal de la aplicación React
-│ │ └── main.jsx # Punto de entrada de la aplicación React
-│ ├── .env.example # Ejemplo de variables de entorno para el frontend
-│ ├── package.json # Dependencias y scripts del frontend
-│ └── index.html # Archivo HTML principal de la aplicación
-├── .gitignore # Reglas para ignorar archivos en Git
-├── package.json # Dependencias y scripts generales del proyecto (si aplica, en la raíz)
-└── README.md # Este archivo de documentación
+├── backend/  
+│ ├── config/  
+│ │ └── config.js  
+│ ├── controllers/  
+│ │ └── postController.js  
+│ ├── models/  
+│ │ └── postModel.js  
+│ ├── routes/  
+│ │ └── postRoutes.js  
+│ ├── .env.example  
+│ ├── package.json  
+│ └── server.js  
+├── frontend/  
+│ ├── public/  
+│ ├── src/  
+│ │ ├── components/  
+│ │ ├── App.js  
+│ │ └── main.jsx  
+│ ├── .env.example  
+│ ├── package.json  
+│ └── index.html  
+├── .gitignore  
+├── package.json  
+└── README.md
+
+backend/ # Contiene la lógica del servidor API  
+config.js # Configuración de conexión a la base de datos  
+postController.js # Lógica de los controladores (GET, POST, PUT, DELETE)  
+postModel.js # Lógica de interacción con la base de datos  
+postRoutes.js # Definición de las rutas de la API  
+.env.example # Ejemplo de variables de entorno para el backend  
+package.json # Dependencias y scripts del backend  
+server.js # Punto de entrada del servidor Express  
+frontend/ # Contiene la aplicación cliente  
+components/ # Componentes reutilizables de React  
+App.js # Componente principal de la aplicación React  
+main.jsx # Punto de entrada de la aplicación React  
+.env.example # Ejemplo de variables de entorno para el frontend  
+package.json # Dependencias y scripts del frontend  
+index.html # Archivo HTML principal de la aplicación  
+.gitignore # Reglas para ignorar archivos en Git  
+package.json # Dependencias y scripts generales del proyecto (si aplica, en la raíz)  
+README.md # Este archivo de documentación
 
 ---
 
