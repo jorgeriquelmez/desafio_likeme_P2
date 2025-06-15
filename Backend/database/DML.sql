@@ -1,0 +1,2 @@
+SELECT * FROM posts;
+ALTER TABLE posts ADD COLUMN usuario VARCHAR(25) DEFAULT 'anonimo';
